@@ -19,7 +19,7 @@ namespace DESK_MES
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmDefectList frm = new frmDefectList();
+            frmOrder frm = new frmOrder();
             frm.MdiParent = this;
             frm.Show();
         }

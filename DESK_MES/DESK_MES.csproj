@@ -58,6 +58,12 @@
     <Compile Include="BaseForm\FormStyle_1.Designer.cs">
       <DependentUpon>FormStyle_1.cs</DependentUpon>
     </Compile>
+    <Compile Include="BaseForm\PopStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm\PopStyle.Designer.cs">
+      <DependentUpon>PopStyle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Button.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +208,12 @@
     <Compile Include="frmWorkOrder.Designer.cs">
       <DependentUpon>frmWorkOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="PopOrderRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopOrderRegister.Designer.cs">
+      <DependentUpon>PopOrderRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BaseForm\FormStyle_1.resx">
@@ -209,6 +221,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BaseForm\FormStyle_2.resx">
       <DependentUpon>FormStyle_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForm\PopStyle.resx">
+      <DependentUpon>PopStyle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Button.resx">
       <DependentUpon>Button.cs</DependentUpon>
@@ -281,6 +296,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmWorkOrder.resx">
       <DependentUpon>frmWorkOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopOrderRegister.resx">
+      <DependentUpon>PopOrderRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

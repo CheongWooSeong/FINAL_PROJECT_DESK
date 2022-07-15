@@ -68,8 +68,8 @@ namespace DESK_MES
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -552,6 +552,16 @@ namespace DESK_MES
             this.button1.Text = "   확정";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // imageList2
+            // 
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList2.Images.SetKeyName(0, "생성.png");
+            this.imageList2.Images.SetKeyName(1, "변경.png");
+            this.imageList2.Images.SetKeyName(2, "삭제.png");
+            this.imageList2.Images.SetKeyName(3, "엑셀.png");
+            this.imageList2.Images.SetKeyName(4, "check.png");
+            // 
             // button3
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -566,16 +576,6 @@ namespace DESK_MES
             this.button3.TabIndex = 31;
             this.button3.Text = "   엑셀";
             this.button3.UseVisualStyleBackColor = true;
-            // 
-            // imageList2
-            // 
-            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
-            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList2.Images.SetKeyName(0, "생성.png");
-            this.imageList2.Images.SetKeyName(1, "변경.png");
-            this.imageList2.Images.SetKeyName(2, "삭제.png");
-            this.imageList2.Images.SetKeyName(3, "엑셀.png");
-            this.imageList2.Images.SetKeyName(4, "check.png");
             // 
             // button2
             // 
@@ -606,6 +606,7 @@ namespace DESK_MES
             this.btnAdd.TabIndex = 29;
             this.btnAdd.Text = "   생성";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // frmOrder
             // 
