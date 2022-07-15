@@ -72,6 +72,7 @@ namespace DESK_MES
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -104,6 +105,7 @@ namespace DESK_MES
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.btnAdd);
@@ -118,6 +120,7 @@ namespace DESK_MES
             this.groupBox1.Controls.SetChildIndex(this.btnAdd, 0);
             this.groupBox1.Controls.SetChildIndex(this.button2, 0);
             this.groupBox1.Controls.SetChildIndex(this.button3, 0);
+            this.groupBox1.Controls.SetChildIndex(this.button4, 0);
             // 
             // textBox1
             // 
@@ -542,14 +545,14 @@ namespace DESK_MES
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.ImageIndex = 4;
+            this.button1.ImageIndex = 5;
             this.button1.ImageList = this.imageList2;
-            this.button1.Location = new System.Drawing.Point(839, 30);
+            this.button1.Location = new System.Drawing.Point(811, 30);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(76, 27);
+            this.button1.Size = new System.Drawing.Size(104, 27);
             this.button1.TabIndex = 15;
-            this.button1.Text = "   확정";
+            this.button1.Text = "   주문취소";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // imageList2
@@ -561,6 +564,7 @@ namespace DESK_MES
             this.imageList2.Images.SetKeyName(2, "삭제.png");
             this.imageList2.Images.SetKeyName(3, "엑셀.png");
             this.imageList2.Images.SetKeyName(4, "check.png");
+            this.imageList2.Images.SetKeyName(5, "닫기.png");
             // 
             // button3
             // 
@@ -591,6 +595,7 @@ namespace DESK_MES
             this.button2.TabIndex = 30;
             this.button2.Text = "   변경";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnAdd
             // 
@@ -607,6 +612,21 @@ namespace DESK_MES
             this.btnAdd.Text = "   생성";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // button4
+            // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button4.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.ImageIndex = 4;
+            this.button4.ImageList = this.imageList2;
+            this.button4.Location = new System.Drawing.Point(701, 30);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(104, 27);
+            this.button4.TabIndex = 32;
+            this.button4.Text = "   주문확정";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // frmOrder
             // 
@@ -684,5 +704,6 @@ namespace DESK_MES
         private System.Windows.Forms.ImageList imageList2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button button4;
     }
 }

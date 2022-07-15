@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmOrder : FormStyle_1
+    public partial class PopOrderModify : Form
     {
-        public frmOrder()
+        public PopOrderModify()
         {
             InitializeComponent();
-            label1.Text = "주문 관리";
-        }
-
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-            PopOrderRegister pop = new PopOrderRegister();
-            pop.ShowDialog();
         }
     }
 }
