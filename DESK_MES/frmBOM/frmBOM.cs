@@ -10,18 +10,24 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmMain : Form
+    public partial class frmBOM : FormStyle_2
     {
-        public frmMain()
+        public frmBOM()
         {
             InitializeComponent();
+            label1.Text = "BOM 관리";
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            PopBOMRegister pop = new PopBOMRegister();
+            pop.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmPurchase frm = new frmPurchase();
-            frm.MdiParent = this;
-            frm.Show();
+            PopBOMDelete pop = new PopBOMDelete();
+            pop.ShowDialog();
         }
     }
 }

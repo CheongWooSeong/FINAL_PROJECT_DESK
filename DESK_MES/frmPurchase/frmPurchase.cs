@@ -17,5 +17,17 @@ namespace DESK_MES
             InitializeComponent();
             label1.Text = "발주 관리";
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            PopPurchaseRegister pop = new PopPurchaseRegister(); ;
+            pop.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            PopPurchaseModify pop = new PopPurchaseModify();
+            pop.ShowDialog();
+        }
     }
 }

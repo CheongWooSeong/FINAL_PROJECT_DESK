@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmMain : Form
+    public partial class PopBOMDelete : Form
     {
-        public frmMain()
+        public PopBOMDelete()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmPurchase frm = new frmPurchase();
-            frm.MdiParent = this;
-            frm.Show();
         }
     }
 }

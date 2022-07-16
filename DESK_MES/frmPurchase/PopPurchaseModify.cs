@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmMain : Form
+    public partial class PopPurchaseModify : Form
     {
-        public frmMain()
+        public PopPurchaseModify()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmPurchase frm = new frmPurchase();
-            frm.MdiParent = this;
-            frm.Show();
         }
     }
 }

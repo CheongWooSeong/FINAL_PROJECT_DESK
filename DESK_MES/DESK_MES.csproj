@@ -70,11 +70,23 @@
     <Compile Include="BaseForm\FormStyle_3.Designer.cs">
       <DependentUpon>FormStyle_3.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmBOM.cs">
+    <Compile Include="frmBOM\frmBOM.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBOM.Designer.cs">
+    <Compile Include="frmBOM\frmBOM.Designer.cs">
       <DependentUpon>frmBOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBOM\PopBOMDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBOM\PopBOMDelete.Designer.cs">
+      <DependentUpon>PopBOMDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBOM\PopBOMRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBOM\PopBOMRegister.Designer.cs">
+      <DependentUpon>PopBOMRegister.cs</DependentUpon>
     </Compile>
     <Compile Include="frmClient\frmClient.cs">
       <SubType>Form</SubType>
@@ -82,10 +94,10 @@
     <Compile Include="frmClient\frmClient.Designer.cs">
       <DependentUpon>frmClient.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDefectList.cs">
+    <Compile Include="frmDefectList\frmDefectList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDefectList.Designer.cs">
+    <Compile Include="frmDefectList\frmDefectList.Designer.cs">
       <DependentUpon>frmDefectList.cs</DependentUpon>
     </Compile>
     <Compile Include="frmEquipment.cs">
@@ -112,10 +124,10 @@
     <Compile Include="frmInspectItem.Designer.cs">
       <DependentUpon>frmInspectItem.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmInspectItemList.cs">
+    <Compile Include="frmInsectItemList\frmInspectItemList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmInspectItemList.Designer.cs">
+    <Compile Include="frmInsectItemList\frmInspectItemList.Designer.cs">
       <DependentUpon>frmInspectItemList.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLOT.cs">
@@ -154,10 +166,10 @@
     <Compile Include="frmProducts.Designer.cs">
       <DependentUpon>frmProducts.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPurchase.cs">
+    <Compile Include="frmPurchase\frmPurchase.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPurchase.Designer.cs">
+    <Compile Include="frmPurchase\frmPurchase.Designer.cs">
       <DependentUpon>frmPurchase.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPurchaseStatus\frmPurchaseStatus.cs">
@@ -256,6 +268,18 @@
     <Compile Include="frmClient\PopClientRegister.Designer.cs">
       <DependentUpon>PopClientRegister.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPurchase\PopPurchaseModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPurchase\PopPurchaseModify.Designer.cs">
+      <DependentUpon>PopPurchaseModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPurchase\PopPurchaseRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPurchase\PopPurchaseRegister.Designer.cs">
+      <DependentUpon>PopPurchaseRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BaseForm\FormStyle_1.resx">
@@ -270,13 +294,19 @@
     <EmbeddedResource Include="BaseForm\FormStyle_3.resx">
       <DependentUpon>FormStyle_3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmBOM.resx">
+    <EmbeddedResource Include="frmBOM\frmBOM.resx">
       <DependentUpon>frmBOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBOM\PopBOMDelete.resx">
+      <DependentUpon>PopBOMDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBOM\PopBOMRegister.resx">
+      <DependentUpon>PopBOMRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmClient\frmClient.resx">
       <DependentUpon>frmClient.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDefectList.resx">
+    <EmbeddedResource Include="frmDefectList\frmDefectList.resx">
       <DependentUpon>frmDefectList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEquipment.resx">
@@ -291,7 +321,7 @@
     <EmbeddedResource Include="frmInspectItem.resx">
       <DependentUpon>frmInspectItem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmInspectItemList.resx">
+    <EmbeddedResource Include="frmInsectItemList\frmInspectItemList.resx">
       <DependentUpon>frmInspectItemList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLOT.resx">
@@ -312,7 +342,7 @@
     <EmbeddedResource Include="frmProducts.resx">
       <DependentUpon>frmProducts.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPurchase.resx">
+    <EmbeddedResource Include="frmPurchase\frmPurchase.resx">
       <DependentUpon>frmPurchase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPurchaseStatus\frmPurchaseStatus.resx">
@@ -362,6 +392,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmClient\PopClientRegister.resx">
       <DependentUpon>PopClientRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPurchase\PopPurchaseModify.resx">
+      <DependentUpon>PopPurchaseModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPurchase\PopPurchaseRegister.resx">
+      <DependentUpon>PopPurchaseRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -630,6 +630,7 @@ namespace DESK_MES
             this.btnAdd.TabIndex = 19;
             this.btnAdd.Text = "   생성";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // button1
             // 
@@ -645,6 +646,7 @@ namespace DESK_MES
             this.button1.TabIndex = 20;
             this.button1.Text = "   삭제";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
