@@ -76,10 +76,10 @@
     <Compile Include="frmBOM.Designer.cs">
       <DependentUpon>frmBOM.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmClient.cs">
+    <Compile Include="frmClient\frmClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmClient.Designer.cs">
+    <Compile Include="frmClient\frmClient.Designer.cs">
       <DependentUpon>frmClient.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDefectList.cs">
@@ -184,10 +184,10 @@
     <Compile Include="frmUser\frmUser.Designer.cs">
       <DependentUpon>frmUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmUserGroup.cs">
+    <Compile Include="frmUserGroup\frmUserGroup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmUserGroup.Designer.cs">
+    <Compile Include="frmUserGroup\frmUserGroup.Designer.cs">
       <DependentUpon>frmUserGroup.cs</DependentUpon>
     </Compile>
     <Compile Include="frmWarehouse.cs">
@@ -232,6 +232,30 @@
     <Compile Include="frmUser\PopUserResister.Designer.cs">
       <DependentUpon>PopUserResister.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUserGroup\PopUserGroupModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserGroup\PopUserGroupModify.Designer.cs">
+      <DependentUpon>PopUserGroupModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserGroup\PopUserGroupRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserGroup\PopUserGroupRegister.Designer.cs">
+      <DependentUpon>PopUserGroupRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClient\PopClientModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClient\PopClientModify.Designer.cs">
+      <DependentUpon>PopClientModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClient\PopClientRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClient\PopClientRegister.Designer.cs">
+      <DependentUpon>PopClientRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BaseForm\FormStyle_1.resx">
@@ -249,7 +273,7 @@
     <EmbeddedResource Include="frmBOM.resx">
       <DependentUpon>frmBOM.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmClient.resx">
+    <EmbeddedResource Include="frmClient\frmClient.resx">
       <DependentUpon>frmClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDefectList.resx">
@@ -303,7 +327,7 @@
     <EmbeddedResource Include="frmUser\frmUser.resx">
       <DependentUpon>frmUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmUserGroup.resx">
+    <EmbeddedResource Include="frmUserGroup\frmUserGroup.resx">
       <DependentUpon>frmUserGroup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmWarehouse.resx">
@@ -326,6 +350,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmUser\PopUserResister.resx">
       <DependentUpon>PopUserResister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserGroup\PopUserGroupModify.resx">
+      <DependentUpon>PopUserGroupModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserGroup\PopUserGroupRegister.resx">
+      <DependentUpon>PopUserGroupRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClient\PopClientModify.resx">
+      <DependentUpon>PopClientModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClient\PopClientRegister.resx">
+      <DependentUpon>PopClientRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

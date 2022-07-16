@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmMain : Form
+    public partial class PopUserGroupModify : Form
     {
-        public frmMain()
+        public PopUserGroupModify()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmClient frm = new frmClient();
-            frm.MdiParent = this;
-            frm.Show();
         }
     }
 }

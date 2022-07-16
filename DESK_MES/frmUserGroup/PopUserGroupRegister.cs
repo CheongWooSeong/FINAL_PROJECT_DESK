@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmClient : FormStyle_2
+    public partial class PopUserGroupRegister : Form
     {
-        public frmClient()
+        public PopUserGroupRegister()
         {
             InitializeComponent();
-            label1.Text = "거래처 관리";
         }
     }
 }

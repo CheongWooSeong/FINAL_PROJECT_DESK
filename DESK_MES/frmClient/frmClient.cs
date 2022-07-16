@@ -10,18 +10,24 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmMain : Form
+    public partial class frmClient : FormStyle_2
     {
-        public frmMain()
+        public frmClient()
         {
             InitializeComponent();
+            label1.Text = "거래처 관리";
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            PopClientRegister pop = new PopClientRegister();
+            pop.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmClient frm = new frmClient();
-            frm.MdiParent = this;
-            frm.Show();
+            PopClientModify pop = new PopClientModify();
+            pop.Show();
         }
     }
 }
