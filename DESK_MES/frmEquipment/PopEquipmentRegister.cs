@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmProducts : FormStyle_2
+    public partial class PopEquipmentRegister : Form
     {
-        public frmProducts()
+        public PopEquipmentRegister()
         {
             InitializeComponent();
-            label1.Text = "품목 관리";
         }
     }
 }

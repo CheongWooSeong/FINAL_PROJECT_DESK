@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmMain : Form
+    public partial class PopInspectItemModify : Form
     {
-        public frmMain()
+        public PopInspectItemModify()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmInspectItem frm = new frmInspectItem();
-            frm.MdiParent = this;
-            frm.Show();
         }
     }
 }

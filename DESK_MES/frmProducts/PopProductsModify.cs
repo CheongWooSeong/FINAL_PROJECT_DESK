@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmInspectItem : FormStyle_2
+    public partial class PopProductsModify : Form
     {
-        public frmInspectItem()
+        public PopProductsModify()
         {
             InitializeComponent();
-            label1.Text = "품질-검사 항목 설정";
         }
     }
 }

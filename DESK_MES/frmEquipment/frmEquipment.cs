@@ -17,5 +17,17 @@ namespace DESK_MES
             InitializeComponent();
             label1.Text = "설비 관리";
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            PopEquipmentRegister pop = new PopEquipmentRegister();
+            pop.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PopEquipmentModify pop = new PopEquipmentModify();
+            pop.ShowDialog();
+        }
     }
 }
