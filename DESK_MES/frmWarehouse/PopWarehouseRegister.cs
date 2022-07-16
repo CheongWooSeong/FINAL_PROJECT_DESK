@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmManufacture : FormStyle_2
+    public partial class PopWarehouseRegister : Form
     {
-        public frmManufacture()
+        public PopWarehouseRegister()
         {
             InitializeComponent();
-            label1.Text = "생산계획 관리";
         }
     }
 }

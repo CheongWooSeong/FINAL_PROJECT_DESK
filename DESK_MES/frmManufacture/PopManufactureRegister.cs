@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmMain : Form
+    public partial class PopManufactureRegister : Form
     {
-        public frmMain()
+        public PopManufactureRegister()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmProcess frm = new frmProcess();
-            frm.MdiParent = this;
-            frm.Show();
         }
     }
 }

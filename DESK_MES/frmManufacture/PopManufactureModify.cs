@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmProcess : FormStyle_2
+    public partial class PopManufactureModify : Form
     {
-        public frmProcess()
+        public PopManufactureModify()
         {
             InitializeComponent();
-            label1.Text = "공정 관리";
         }
     }
 }

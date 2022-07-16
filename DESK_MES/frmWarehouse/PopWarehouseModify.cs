@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmWarehouse : FormStyle_2
+    public partial class PopWarehouseModify : Form
     {
-        public frmWarehouse()
+        public PopWarehouseModify()
         {
             InitializeComponent();
-            label1.Text = "창고 관리";
         }
     }
 }

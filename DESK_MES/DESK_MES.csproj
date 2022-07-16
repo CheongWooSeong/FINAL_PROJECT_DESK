@@ -142,16 +142,16 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmManufacture.cs">
+    <Compile Include="frmManufacture\frmManufacture.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmManufacture.Designer.cs">
+    <Compile Include="frmManufacture\frmManufacture.Designer.cs">
       <DependentUpon>frmManufacture.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmProcess.cs">
+    <Compile Include="frmProcess\frmProcess.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmProcess.Designer.cs">
+    <Compile Include="frmProcess\frmProcess.Designer.cs">
       <DependentUpon>frmProcess.cs</DependentUpon>
     </Compile>
     <Compile Include="frmOrder\frmOrder.cs">
@@ -202,10 +202,10 @@
     <Compile Include="frmUserGroup\frmUserGroup.Designer.cs">
       <DependentUpon>frmUserGroup.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmWarehouse.cs">
+    <Compile Include="frmWarehouse\frmWarehouse.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmWarehouse.Designer.cs">
+    <Compile Include="frmWarehouse\frmWarehouse.Designer.cs">
       <DependentUpon>frmWarehouse.cs</DependentUpon>
     </Compile>
     <Compile Include="frmWorkOrder.cs">
@@ -280,6 +280,42 @@
     <Compile Include="frmPurchase\PopPurchaseRegister.Designer.cs">
       <DependentUpon>PopPurchaseRegister.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmManufacture\PopManufactureModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManufacture\PopManufactureModify.Designer.cs">
+      <DependentUpon>PopManufactureModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManufacture\PopManufactureRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManufacture\PopManufactureRegister.Designer.cs">
+      <DependentUpon>PopManufactureRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarehouse\PopWarehouseModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarehouse\PopWarehouseModify.Designer.cs">
+      <DependentUpon>PopWarehouseModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarehouse\PopWarehouseRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarehouse\PopWarehouseRegister.Designer.cs">
+      <DependentUpon>PopWarehouseRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProcess\PopProcessModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProcess\PopProcessModify.Designer.cs">
+      <DependentUpon>PopProcessModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProcess\PopProcessRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProcess\PopProcessRegister.Designer.cs">
+      <DependentUpon>PopProcessRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BaseForm\FormStyle_1.resx">
@@ -330,10 +366,10 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmManufacture.resx">
+    <EmbeddedResource Include="frmManufacture\frmManufacture.resx">
       <DependentUpon>frmManufacture.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmProcess.resx">
+    <EmbeddedResource Include="frmProcess\frmProcess.resx">
       <DependentUpon>frmProcess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmOrder\frmOrder.resx">
@@ -360,7 +396,7 @@
     <EmbeddedResource Include="frmUserGroup\frmUserGroup.resx">
       <DependentUpon>frmUserGroup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmWarehouse.resx">
+    <EmbeddedResource Include="frmWarehouse\frmWarehouse.resx">
       <DependentUpon>frmWarehouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmWorkOrder.resx">
@@ -398,6 +434,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPurchase\PopPurchaseRegister.resx">
       <DependentUpon>PopPurchaseRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManufacture\PopManufactureModify.resx">
+      <DependentUpon>PopManufactureModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManufacture\PopManufactureRegister.resx">
+      <DependentUpon>PopManufactureRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarehouse\PopWarehouseModify.resx">
+      <DependentUpon>PopWarehouseModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarehouse\PopWarehouseRegister.resx">
+      <DependentUpon>PopWarehouseRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProcess\PopProcessModify.resx">
+      <DependentUpon>PopProcessModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProcess\PopProcessRegister.resx">
+      <DependentUpon>PopProcessRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
