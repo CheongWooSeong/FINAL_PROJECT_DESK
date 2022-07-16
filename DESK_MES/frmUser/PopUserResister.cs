@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmUser : FormStyle_2
+    public partial class PopUserResister : Form
     {
-        public frmUser()
+        public PopUserResister()
         {
             InitializeComponent();
-            label1.Text = "사용자 관리";
         }
     }
 }

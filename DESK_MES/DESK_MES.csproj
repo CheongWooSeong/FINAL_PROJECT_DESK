@@ -178,10 +178,10 @@
     <Compile Include="frmSalesStatus\frmSalesStatus.Designer.cs">
       <DependentUpon>frmSalesStatus.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmUser.cs">
+    <Compile Include="frmUser\frmUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmUser.Designer.cs">
+    <Compile Include="frmUser\frmUser.Designer.cs">
       <DependentUpon>frmUser.cs</DependentUpon>
     </Compile>
     <Compile Include="frmUserGroup.cs">
@@ -219,6 +219,18 @@
     </Compile>
     <Compile Include="frmRelease\PopReleaseProduct.Designer.cs">
       <DependentUpon>PopReleaseProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser\PopUserModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUser\PopUserModify.Designer.cs">
+      <DependentUpon>PopUserModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser\PopUserResister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUser\PopUserResister.Designer.cs">
+      <DependentUpon>PopUserResister.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -288,7 +300,7 @@
     <EmbeddedResource Include="frmSalesStatus\frmSalesStatus.resx">
       <DependentUpon>frmSalesStatus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmUser.resx">
+    <EmbeddedResource Include="frmUser\frmUser.resx">
       <DependentUpon>frmUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUserGroup.resx">
@@ -308,6 +320,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRelease\PopReleaseProduct.resx">
       <DependentUpon>PopReleaseProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser\PopUserModify.resx">
+      <DependentUpon>PopUserModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser\PopUserResister.resx">
+      <DependentUpon>PopUserResister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
