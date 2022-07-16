@@ -64,12 +64,6 @@
     <Compile Include="BaseForm\PopStyle.Designer.cs">
       <DependentUpon>PopStyle.cs</DependentUpon>
     </Compile>
-    <Compile Include="Button.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Button.Designer.cs">
-      <DependentUpon>Button.cs</DependentUpon>
-    </Compile>
     <Compile Include="BaseForm\FormStyle_3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,22 +160,22 @@
     <Compile Include="frmPurchase.Designer.cs">
       <DependentUpon>frmPurchase.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPurchaseStatus.cs">
+    <Compile Include="frmPurchaseStatus\frmPurchaseStatus.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPurchaseStatus.Designer.cs">
+    <Compile Include="frmPurchaseStatus\frmPurchaseStatus.Designer.cs">
       <DependentUpon>frmPurchaseStatus.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRelease.cs">
+    <Compile Include="frmRelease\frmRelease.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRelease.Designer.cs">
+    <Compile Include="frmRelease\frmRelease.Designer.cs">
       <DependentUpon>frmRelease.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSalesStatus.cs">
+    <Compile Include="frmSalesStatus\frmSalesStatus.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSalesStatus.Designer.cs">
+    <Compile Include="frmSalesStatus\frmSalesStatus.Designer.cs">
       <DependentUpon>frmSalesStatus.cs</DependentUpon>
     </Compile>
     <Compile Include="frmUser.cs">
@@ -220,6 +214,12 @@
     <Compile Include="frmOrder\PopOrderRegister.Designer.cs">
       <DependentUpon>PopOrderRegister.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRelease\PopReleaseProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelease\PopReleaseProduct.Designer.cs">
+      <DependentUpon>PopReleaseProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BaseForm\FormStyle_1.resx">
@@ -230,9 +230,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BaseForm\PopStyle.resx">
       <DependentUpon>PopStyle.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Button.resx">
-      <DependentUpon>Button.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BaseForm\FormStyle_3.resx">
       <DependentUpon>FormStyle_3.cs</DependentUpon>
@@ -282,13 +279,13 @@
     <EmbeddedResource Include="frmPurchase.resx">
       <DependentUpon>frmPurchase.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPurchaseStatus.resx">
+    <EmbeddedResource Include="frmPurchaseStatus\frmPurchaseStatus.resx">
       <DependentUpon>frmPurchaseStatus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRelease.resx">
+    <EmbeddedResource Include="frmRelease\frmRelease.resx">
       <DependentUpon>frmRelease.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSalesStatus.resx">
+    <EmbeddedResource Include="frmSalesStatus\frmSalesStatus.resx">
       <DependentUpon>frmSalesStatus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUser.resx">
@@ -308,6 +305,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmOrder\PopOrderRegister.resx">
       <DependentUpon>PopOrderRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelease\PopReleaseProduct.resx">
+      <DependentUpon>PopReleaseProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -332,5 +332,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

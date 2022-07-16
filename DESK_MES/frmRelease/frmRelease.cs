@@ -17,5 +17,11 @@ namespace DESK_MES
             InitializeComponent();
             label1.Text = "출고 관리";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PopReleaseProduct pop = new PopReleaseProduct();
+            pop.ShowDialog();
+        }
     }
 }

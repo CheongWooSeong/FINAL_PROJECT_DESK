@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class Button : Form
+    public partial class PopReleaseProduct : Form
     {
-        public Button()
+        public PopReleaseProduct()
         {
             InitializeComponent();
         }
