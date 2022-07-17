@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmMain : Form
+    public partial class frmEquipmentStop : FormStyle_3
     {
-        public frmMain()
+        public frmEquipmentStop()
         {
             InitializeComponent();
+            label1.Text = "설비 비가동 관리";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmWorkOrder frm = new frmWorkOrder();
-            frm.MdiParent = this;
-            frm.Show();
+            PopEquipmentStopRegister pop = new PopEquipmentStopRegister();
+            pop.ShowDialog();
         }
     }
 }

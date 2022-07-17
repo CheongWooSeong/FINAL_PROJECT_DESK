@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmWorkOrder : FormStyle_1
+    public partial class PopWorkOrderRegister : Form
     {
-        public frmWorkOrder()
+        public PopWorkOrderRegister()
         {
             InitializeComponent();
-            label1.Text = "작업지시 관리";
         }
     }
 }

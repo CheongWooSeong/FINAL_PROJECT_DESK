@@ -106,16 +106,16 @@
     <Compile Include="frmEquipment\frmEquipment.Designer.cs">
       <DependentUpon>frmEquipment.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmEquipmentAndProcess.cs">
+    <Compile Include="frmEquipmentAndProcess\frmEquipmentAndProcess.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEquipmentAndProcess.Designer.cs">
+    <Compile Include="frmEquipmentAndProcess\frmEquipmentAndProcess.Designer.cs">
       <DependentUpon>frmEquipmentAndProcess.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmEquipmentStop.cs">
+    <Compile Include="frmEquipmentStop\frmEquipmentStop.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEquipmentStop.Designer.cs">
+    <Compile Include="frmEquipmentStop\frmEquipmentStop.Designer.cs">
       <DependentUpon>frmEquipmentStop.cs</DependentUpon>
     </Compile>
     <Compile Include="frmInspectItem\frmInspectItem.cs">
@@ -130,10 +130,10 @@
     <Compile Include="frmInsectItemList\frmInspectItemList.Designer.cs">
       <DependentUpon>frmInspectItemList.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLOT.cs">
+    <Compile Include="frmLOT\frmLOT.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLOT.Designer.cs">
+    <Compile Include="frmLOT\frmLOT.Designer.cs">
       <DependentUpon>frmLOT.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
@@ -208,10 +208,10 @@
     <Compile Include="frmWarehouse\frmWarehouse.Designer.cs">
       <DependentUpon>frmWarehouse.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmWorkOrder.cs">
+    <Compile Include="frmWorkOrder\frmWorkOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmWorkOrder.Designer.cs">
+    <Compile Include="frmWorkOrder\frmWorkOrder.Designer.cs">
       <DependentUpon>frmWorkOrder.cs</DependentUpon>
     </Compile>
     <Compile Include="frmOrder\PopOrderModify.cs">
@@ -352,6 +352,36 @@
     <Compile Include="frmInspectItem\PopInspectItemRegister.Designer.cs">
       <DependentUpon>PopInspectItemRegister.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEquipmentAndProcess\PopEquipmentAndProcessModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquipmentAndProcess\PopEquipmentAndProcessModify.Designer.cs">
+      <DependentUpon>PopEquipmentAndProcessModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEquipmentAndProcess\PopEquipmentAndProcessRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquipmentAndProcess\PopEquipmentAndProcessRegister.Designer.cs">
+      <DependentUpon>PopEquipmentAndProcessRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEquipmentStop\PopEquipmentStopRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquipmentStop\PopEquipmentStopRegister.Designer.cs">
+      <DependentUpon>PopEquipmentStopRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWorkOrder\PopWorkOrderModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWorkOrder\PopWorkOrderModify.Designer.cs">
+      <DependentUpon>PopWorkOrderModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWorkOrder\PopWorkOrderRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWorkOrder\PopWorkOrderRegister.Designer.cs">
+      <DependentUpon>PopWorkOrderRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BaseForm\FormStyle_1.resx">
@@ -384,10 +414,10 @@
     <EmbeddedResource Include="frmEquipment\frmEquipment.resx">
       <DependentUpon>frmEquipment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmEquipmentAndProcess.resx">
+    <EmbeddedResource Include="frmEquipmentAndProcess\frmEquipmentAndProcess.resx">
       <DependentUpon>frmEquipmentAndProcess.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmEquipmentStop.resx">
+    <EmbeddedResource Include="frmEquipmentStop\frmEquipmentStop.resx">
       <DependentUpon>frmEquipmentStop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInspectItem\frmInspectItem.resx">
@@ -396,7 +426,7 @@
     <EmbeddedResource Include="frmInsectItemList\frmInspectItemList.resx">
       <DependentUpon>frmInspectItemList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLOT.resx">
+    <EmbeddedResource Include="frmLOT\frmLOT.resx">
       <DependentUpon>frmLOT.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
@@ -435,7 +465,7 @@
     <EmbeddedResource Include="frmWarehouse\frmWarehouse.resx">
       <DependentUpon>frmWarehouse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmWorkOrder.resx">
+    <EmbeddedResource Include="frmWorkOrder\frmWorkOrder.resx">
       <DependentUpon>frmWorkOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmOrder\PopOrderModify.resx">
@@ -506,6 +536,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmInspectItem\PopInspectItemRegister.resx">
       <DependentUpon>PopInspectItemRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquipmentAndProcess\PopEquipmentAndProcessModify.resx">
+      <DependentUpon>PopEquipmentAndProcessModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquipmentAndProcess\PopEquipmentAndProcessRegister.resx">
+      <DependentUpon>PopEquipmentAndProcessRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquipmentStop\PopEquipmentStopRegister.resx">
+      <DependentUpon>PopEquipmentStopRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWorkOrder\PopWorkOrderModify.resx">
+      <DependentUpon>PopWorkOrderModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWorkOrder\PopWorkOrderRegister.resx">
+      <DependentUpon>PopWorkOrderRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

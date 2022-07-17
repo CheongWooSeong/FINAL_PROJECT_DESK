@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmLOT : FormStyle_2
+    public partial class PopEquipmentAndProcessRegister : Form
     {
-        public frmLOT()
+        public PopEquipmentAndProcessRegister()
         {
             InitializeComponent();
-            label1.Text = "▶  LOT 관리";
         }
     }
 }

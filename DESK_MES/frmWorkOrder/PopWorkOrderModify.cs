@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmMain : Form
+    public partial class PopWorkOrderModify : Form
     {
-        public frmMain()
+        public PopWorkOrderModify()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmWorkOrder frm = new frmWorkOrder();
-            frm.MdiParent = this;
-            frm.Show();
         }
     }
 }

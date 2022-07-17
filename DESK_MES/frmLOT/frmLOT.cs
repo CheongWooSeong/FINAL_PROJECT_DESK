@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace DESK_MES
 {
-    public partial class frmEquipmentAndProcess : FormStyle_2
+    public partial class frmLOT : FormStyle_2
     {
-        public frmEquipmentAndProcess()
+        public frmLOT()
         {
             InitializeComponent();
-            label1.Text = "설비-공정 관계 설정";
+            label1.Text = "LOT 상태 및 이력 조회";
         }
     }
 }
